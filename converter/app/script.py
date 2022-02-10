@@ -6,7 +6,7 @@ yourpath = ''
 
 
 def send_to_ftp(folder):
-    ftp = ftplib.FTP('kislov.myjino.ru', 'kislov_herb', 'fjskibn1')
+    ftp = ftplib.FTP('changed.ru', 'changed', 'fjskibn1')
     ftp.cwd('jpgimgs')
 
     for subdir, dirs, files in os.walk(folder):
